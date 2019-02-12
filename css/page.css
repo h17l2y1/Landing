@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px auto;
+    background-color: #d7e7ef;
+}
+
+@font-face {
+    font-family: "Mido"; 
+    src: url("../font/Mido.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face {
+    font-family: "CharisSIL"; 
+    src: url("../font/CharisSILR.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+.header {
+    padding-top: 2%;
+    font-family: 'Nunito', 'Arial';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    height: 575px;
+
+    background-image: url(/image/background.jpg); 
+    background-color: #f6f6f5;
+}
+
+.header-mid{ width: 66%; }
+
+/* .header-left{ width: 17%; } */
+/* .header-right{ width: 17%; } */
+
+.header-top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-name{
+    font: bold 25px Mido;
+    letter-spacing: 1px;
+    color: #2d3a4e;
+}
+
+.call-us{
+    display: flex;
+    font: 18px CharisSIL;
+    letter-spacing: 1px;
+}
+
+.call-word{ color: #a5a5a5; }
+
+.call-number{ color: #504f4f; }
+
+.line{
+    height: 2px;
+    box-shadow: inset 0 0 0.5px;
+    background-color: white
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+img { display: block; }
+
+.slider-image{
+    width: 70%;
+    padding: 10px;
+    border: solid 1px;
+    border-color: #d9d9d9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    background-color: white;
+}
+
+.slider-text{
+    width: 30%;
+    margin-left: 3%
+}
+
+.headline{
+    font: bold 25px CharisSIL;
+    /* font: bold 25px 'Lusida sans'; */
+    color: #504f4f;
+    text-align: justify;
+}
+
+.main-text{
+    font: 15px 'Segoe UI';
+    color: #504f4f;
+    text-align: left;
+    letter-spacing: 0.5px;
+
+    line-height: 20pt;
+    /* width: 260px; */
+}
+
+.list{
+    font: 15px 'Segoe UI';
+    color: #504f4f;
+    letter-spacing: 0.5px;
+    line-height: 2;
+}
+
+ul {
+    padding: 0; 
+    margin-left: 20px;
+}
+
+.button{
+    font: 15px 'CharisSIL';
+    color: #62889a;
+    text-align: center;
+    width: 134px;
+    text-shadow: 0.5px 0.5px rgb(255, 255, 255), 0.5px 0.5px ;
+    background: #9dbecf;
+    background: linear-gradient(to top, #9dbecf, #c3dae6);
+    padding: 10px;
+    border: 1px solid #a9bfd2;
+}
+
+.button:hover{
+    background: #5a7f92;
+}
