@@ -22,20 +22,14 @@ body {
 
 .header {
     padding-top: 2%;
-    font-family: 'Nunito', 'Arial';
-    font-size: 20px;
     display: flex;
     justify-content: center;
     height: 575px;
-
     background-image: url(/image/background.jpg); 
     background-color: #f6f6f5;
 }
 
 .header-mid{ width: 66%; }
-
-/* .header-left{ width: 17%; } */
-/* .header-right{ width: 17%; } */
 
 .header-top-content{
     display: flex;
@@ -50,9 +44,10 @@ body {
 }
 
 .logo-name{
-    font: bold 25px Mido;
+    font: bold 25px 'Mido';
     letter-spacing: 1px;
     color: #2d3a4e;
+    margin-left: 5px;
 }
 
 .call-us{
@@ -63,7 +58,10 @@ body {
 
 .call-word{ color: #a5a5a5; }
 
-.call-number{ color: #504f4f; }
+.call-number{ 
+    color: #504f4f;
+    margin-left: 5px;
+}
 
 .line{
     height: 2px;
@@ -94,8 +92,7 @@ img { display: block; }
 }
 
 .headline{
-    font: bold 25px CharisSIL;
-    /* font: bold 25px 'Lusida sans'; */
+    font: bold 25px 'CharisSIL';
     color: #504f4f;
     text-align: justify;
 }
@@ -105,9 +102,7 @@ img { display: block; }
     color: #504f4f;
     text-align: left;
     letter-spacing: 0.5px;
-
     line-height: 20pt;
-    /* width: 260px; */
 }
 
 .list{
@@ -136,4 +131,190 @@ ul {
 
 .button:hover{
     background: #5a7f92;
+}
+
+.container_img {
+    box-shadow: 0 2px 2px #575555 inset; 
+    background-color: #c9dce6;
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    margin: 20px;
+    padding: 5px;
+    background-color: white;
+}
+
+.pre-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #d7e7ef;
+    margin-bottom: 50px;
+}
+
+.pre-footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 66%;
+}
+
+#flex-1{
+    flex-grow: 1;
+    width: 100%;
+    font: italic 25px 'CharisSIL';
+    color: #7da0b3;
+    text-shadow: 0.5px 0.5px rgb(255, 255, 255), 0px 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #d7e7ef;
+}
+
+#flex-5{
+    flex-grow: 1;
+    margin-right: 88px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.test{
+    margin: 5px;
+    width: 300px;
+}
+
+.headline_info {
+    display: flex;
+    align-items: center;
+}
+
+.colum_info {
+    padding-right: 50px; 
+}
+
+.text_info {
+    font: bold 14px 'CharisSIL';
+    color: #456474;
+    text-shadow: 0.3px 0.3px rgb(255, 255, 255), 0px 0px;
+    margin-left: 10px;
+}
+
+.text_info2{
+    font: 13px 'Lucida Sans';
+    color: #504f4f;
+}
+
+.inside-flex-5{
+    justify-content: space-between;
+    margin: 5px;
+}
+
+#flex-5{
+    background-color: #c9dce6;
+}
+
+#flex-5-1{
+    width: 100%;
+    flex-grow: 1;
+    font: bold 16px 'CharisSIL';
+    color: #456474;
+    text-shadow: 0.3px 0.3px rgb(255, 255, 255), 0px 0px ;
+}
+
+#flex-5-2{
+    width: 44%;
+    display: flex;
+    font: italic 13px 'Lucida Sans';
+    color: #456474;
+}
+
+.dot{
+    width: 7%;
+    font-size: 45px;
+    margin-right: 5px;
+
+}
+
+.citate1{
+    margin-left: 7px;
+}
+
+.citate{
+    width: 90%;
+}
+
+.by{
+    width: 100%;
+    margin-top: 10px;
+    font: bold 13px 'Lucida Sans';
+    color: #456474;
+
+}
+
+.inside-flex-6{
+    display: flex;
+    height: 40px;
+    margin: 5px;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#flex-6{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.flex-6-1-text{
+    margin-left: 10px;
+}
+
+.flex-6-1-text{
+    width: 100%;
+}
+
+.flex-6-1-email{
+    width: 100%;
+    font: 13px 'Lucida Sans';
+    justify-items: center;
+    background-color: white;
+}
+
+.button1{
+    font: 13px 'CharisSIL';
+    color: #62889a;
+    text-align: center;
+    text-shadow: 0.3px 0.3px rgb(255, 255, 255), 0px 0px ;
+    background: linear-gradient(to top, #9dbecf, #c3dae6);
+    border: 1px solid #a9bfd2;
+}
+
+.Footer {
+    box-shadow: 0 2px 2px #575555 inset;
+    display: flex;
+    justify-content: center;
+    background-color: #c9dce6;
+}
+
+.footer_mid {
+    width: 66%;
+    display: flex;
+    padding: 15px;
+
+}
+
+.cop {
+    width: 45%;
+}
+
+.links {
+    display: flex;
+    width: 54%;
+    justify-content: flex-end;
+}
+.links_img {
+    margin-left: 15px;
 }
